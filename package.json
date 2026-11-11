@@ -1,0 +1,22 @@
+{
+  "name": "servicenow-ai-agent-mcp",
+  "version": "1.0.0",
+  "description": "Integration and setup guide for connecting AI Agents to ServiceNow via Model Context Protocol (MCP)",
+  "main": "scripts/test-query.js",
+  "scripts": {
+    "test:connection": "node scripts/test-query.js",
+    "fix:pdi-auth": "node scripts/setup-pdi-auth.js"
+  },
+  "keywords": [
+    "servicenow",
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "nowaikit",
+    "antigravity",
+    "claude",
+    "automation"
+  ],
+  "author": "ruwwww",
+  "license": "MIT"
+}

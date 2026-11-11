@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "servicenow": {
+      "command": "node",
+      "args": ["<PATH_TO_GLOBAL_NPM>/node_modules/nowaikit/dist/server.js"],
+      "env": {
+        "SERVICENOW_INSTANCE_URL": "https://devXXXXX.service-now.com",
+        "SERVICENOW_AUTH_METHOD": "basic",
+        "SERVICENOW_BASIC_USERNAME": "admin",
+        "SERVICENOW_BASIC_PASSWORD": "YOUR_PASSWORD_HERE",
+        "WRITE_ENABLED": "true",
+        "SCRIPTING_ENABLED": "true",
+        "CMDB_WRITE_ENABLED": "true",
+        "MCP_TOOL_PACKAGE": "full"
+      }
+    }
+  }
+}
